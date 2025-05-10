@@ -10,7 +10,7 @@ It's tuned to the uplink satcom frequencies but it can be used for other purpose
 
 ## Important notes:
 
-- Do not put more than 1-2W of input RF power. The max power output of this PA is 15W
+- Do not put more than 6W of input RF power. The max power output of this PA is around 20W. Check the datasheet.
 - You will need a tx/rx swith if you want to recieve when using this amplifier and also a lowpass filter to avoid it's harmonics!
 - The recomended vias voltage is 2.7v. **Before soldering the amplifier adjust the potentiometer!**
 
@@ -21,8 +21,7 @@ It's tuned to the uplink satcom frequencies but it can be used for other purpose
 
 ## Features:
 
-- With 1,5W at 300mhz it gives an output of 15W
-- The frequency with maximum power is at 305mhz
+- With 4W at 300mhz it gives an output of around 23W at 13.8v
 - The input SWR is well tunned
 
 <img src="./img/swr.png" alt="swr" width="200"/>
@@ -35,14 +34,15 @@ It's tuned to the uplink satcom frequencies but it can be used for other purpose
 
 - Apply thermal paste between the `RD15HVF1` amplifier and the heatsink
 - The wound coils act as RF chokes. They should have between 150-300nH so wound a 0.7mm enameled wire around a 5mm drill bit for 6 turns
-
 - The zener diode acts as a voltage limiter. Buy one with a breakdown voltage of around 4v so even if the potentiometer is open it will not push to the bias the 9v of the voltage regulator
-
+- If the amplifier is not properly bolted to the heatsink or the coils are not correct, the output power will oscilate.
+- If you buy one of those cheap black amplifiers of 4W for HF,VHF on aliexpress and connect a hackrf to it before connecting it to this amplifier, you'll get an output power of around 16W.
 ------
 
 ## Ordering the PCB:
 
-Download the [GERBER-Amplifier](./GERBER-Amplifier.zip) file from this repo and order it a jlcpcb with the default options. The only option I've changed is to remove the manufacture code mark
+Download the [GERBER-Amplifier](./GERBER-Amplifier.zip) file from this repo and order it a jlcpcb with the default options.  
+The only option I've changed is to remove the manufacture code mark
 
 <img src="./img/jlcpcb.png" alt="kicad" width="400"/>
 
@@ -56,7 +56,16 @@ Download the [GERBER-Amplifier](./GERBER-Amplifier.zip) file from this repo and 
 
 ## Output power:
 
-<img src="./img/pwr.png" alt="output power" width="300"/>
+### 2W input
+
+| Freq in Mhz | Output power (W) |
+|-------------|------------------|
+| 270 | 14.3 |
+| 280 | 16.5 |
+| 290 | 15.5 |
+| 300 | 14.5 |
+| 310 | 14.1 |
+| 320 | 13.3 |
 
 ------
 
@@ -75,7 +84,7 @@ Download the [GERBER-Amplifier](./GERBER-Amplifier.zip) file from this repo and 
 - 0805 27p Capacitor
 - 0805 62p Capacitor
 - 0805 36p Capacitor
-- 0805 10p Capacitor
+- 0805 8p Capacitor
 - 0805 100p Capacitor
 - 2x 1812 100n Capacitor
 - 2x 1812 1u Capacitor
