@@ -16,7 +16,7 @@ It's tuned to the uplink satcom frequencies but it can be used for other purpose
 
 <img src="./img/bias_voltage.png" alt="vias voltage" width="400"/>
 
-- There are **a lot** of fake RD15HVF1 chips on aliexpress! It's better to buy a used RD15HVF1 with the legs cut (as in [here](aliexpress.com/item/1005008441262750.html) than paying more for a "new" chip that will never work.
+- There are **a lot** of fake RD15HVF1 chips on aliexpress! It's better to buy a used RD15HVF1 with the legs cut (as in [here](https://aliexpress.com/item/1005008441262750.html) than paying more for a "new" chip that will never work.
 
 ## Features:
 
@@ -28,11 +28,12 @@ It's tuned to the uplink satcom frequencies but it can be used for other purpose
 
 ## Aditional information:
 
-- Be sure to use a proper heatsink. Ideally it should be 100x50mm
-- Apply thermal paste to the `RD15HVF1` amplifier
-- The wound coils act as RF chokes. They should have between 150-300nH so wound a 0.7mm enameled wire around a 5mm drill bit for 6 turns
+- Be sure to use a proper heatsink. Ideally it should be 100x50mm. [This](https://aliexpress.com/item/1005004879389236.html) is the one I've got
 
 <img src="./img/heatsink.png" alt="heatsink" width="200"/>
+
+- Apply thermal paste to the `RD15HVF1` amplifier
+- The wound coils act as RF chokes. They should have between 150-300nH so wound a 0.7mm enameled wire around a 5mm drill bit for 6 turns
 
 - The zener diode acts as a voltage limiter. Buy one with a breakdown voltage of around 4v so even if the potentiometer is open it will not push to the bias the 9v of the voltage regulator
 
