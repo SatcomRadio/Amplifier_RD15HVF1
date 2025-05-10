@@ -66,23 +66,24 @@ Download the [GERBER-Amplifier](./GERBER-Amplifier.zip) file from this repo and 
 
 ## BOM:
 
-PCB that you can order ar jlcpcb or somewhere else.
-RD15HVF1 (https://aliexpress.com/item/1005008441262750.html)
-0805 560p Capacitor
-0805 27p Capacitor
-0805 62p Capacitor
-0805 36p Capacitor
-0805 10p Capacitor
-0805 100p Capacitor
-2x 1812 100n Capacitor
-2x 1812 1u Capacitor
-0805 10 ohm resistor
-0805 1k ohm resistor
-L7809  9v voltage regulator
-33uF SMD electrolitic cap 25v 5X5.4mm (https://aliexpress.com/item/1005005427427871.html)
-3314G 10k potentiometer (https://aliexpress.com/item/1005003118598266.html)
-100x50x50mm heatsink (https://aliexpress.com/item/1005004879389236.html)
-0.7mm enameled wire for making air wound coils
-2x SMA connectors
-
-(Optional) LL41 SMD 3v9 or 4v7 Zener Diode (Voltage limiter)
+```
+- PCB that you can order ar jlcpcb or somewhere else.
+- RD15HVF1 (https://aliexpress.com/item/1005008441262750.html)
+- 0805 560p Capacitor
+- 0805 27p Capacitor
+- 0805 62p Capacitor
+- 0805 36p Capacitor
+- 0805 10p Capacitor
+- 0805 100p Capacitor
+- 2x 1812 100n Capacitor
+- 2x 1812 1u Capacitor
+- 0805 10 ohm resistor
+- 0805 1k ohm resistor
+- L7809  9v voltage regulator
+- 33uF SMD electrolitic cap 25v 5X5.4mm (https://aliexpress.com/item/1005005427427871.html)
+- 3314G 10k potentiometer (https://aliexpress.com/item/1005003118598266.html)
+- 100x50x50mm heatsink (https://aliexpress.com/item/1005004879389236.html)
+- 0.7mm enameled wire for making air wound coils
+- 2x SMA connectors
+- (Optional) LL41 SMD 3v9 or 4v7 Zener Diode (Voltage limiter)
+```
