@@ -1,7 +1,8 @@
 # RD15HVF1 Amplifier for 280-320 mhz
 
-This repo consists of a board that uses the RD15HVF1 amplifier.  
-It's tuned to the uplink satcom frequencies but it can be used for other purposes aswell.  
+This repo consists of a board that uses the RD15HVF1 amplifier at satcom frequency range (280-320Mhz).  
+
+#### Please make sure to visit the [satcom radio website](https://satcomradio.github.io/) for more information
 
 <img src="./img/kicad_3d.png" alt="kicad" width="400"/>
 <img src="./img/circuit.png" alt="kicad" width="400"/>
