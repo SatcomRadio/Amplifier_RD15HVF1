@@ -70,12 +70,6 @@ The only option I've changed is to remove the manufacture code mark
 
 ------
 
-## Prototype image:
-
-<img src="./img/prototype.png" alt="prototype" width="400"/>
-
-------
-
 ## BOM:
 
 ```
