@@ -68,6 +68,8 @@ The only option I've changed is to remove the manufacture code mark
 | 310 | 14.1 |
 | 320 | 13.3 |
 
+At 4W input power the output is >20W
+
 ------
 
 ## BOM:
